@@ -1,3 +1,5 @@
+import logging
+import multiprocessing
 import threading
 import time
 
@@ -10,7 +12,7 @@ from utils.logger_config import LoggerConfig
 class DataAcquisition(object):
     """ Class for data acquisition process """
 
-    def __init__(self, log_obj, data_process_queue) -> None:
+    def __init__(self, log_obj: logging.Logger, data_process_queue: multiprocessing.Queue) -> None:
         """ Constructor to process all initialization process
 
             Args:
@@ -25,6 +27,7 @@ class DataAcquisition(object):
 
     def setup_data_acquisition(self) -> None:
         """ Setup all data Acquisition phase
+
             Steps:
                 1. Prepare the API endpoints and ensure that the API is reachable.
                 2. For the Yahoo Finance API, we’ll attempt a test request to validate connectivity.
@@ -55,7 +58,8 @@ class DataAcquisition(object):
             "timestamp": time.time()
         }
 
-    def acquisition_worker(self, symbol_subset, queue, time_limit=10, fetch_interval=1) -> None:
+    def acquisition_worker(self, symbol_subset: list, queue: multiprocessing.Queue, time_limit: int = 10,
+                           fetch_interval: int = 1) -> None:
         """ Worker thread function to continuously fetch data for given symbols until time_limit expires.
 
         Args:
@@ -77,9 +81,8 @@ class DataAcquisition(object):
                     log_obj.error(f"Error fetching data for {symbol}: {e}")
             time.sleep(fetch_interval)
 
-    def run_data_acquisition_process(self, thread_count= 2) -> None:
-        """
-            Run the data acquisition process by spawning multiple threads.
+    def run_data_acquisition_process(self, thread_count=2) -> None:
+        """ Run the data acquisition process by spawning multiple threads.
 
             Args:
                 thread_count (int): Number of threads to use for concurrent data fetching.

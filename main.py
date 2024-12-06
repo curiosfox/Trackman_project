@@ -19,7 +19,6 @@ class MainApp(object):
         Each process communicates via multiprocessing queues:
         - Data Acquisition → Data Process Queue
         - Data Processing → Data Storage Queue
-
     """
 
     def __init__(self) -> None:
@@ -46,21 +45,21 @@ class MainApp(object):
         except Exception as ex:
             self.log.error(f"Error occurred during setup phase :{ex}")
 
-    def acquisition_process(self):
+    def acquisition_process(self) -> None:
         """ Target function for the data acquisition process."""
 
         self.log.info("Acquisition process starting...")
         self.data_acq_obj.run_data_acquisition_process(thread_count=2)
         self.log.info("Acquisition process completed.")
 
-    def processing_process(self):
+    def processing_process(self) -> None:
         """ Target function for the data processing."""
 
         self.log.info("Processing process starting...")
         self.data_proc_obj.run_data_processing(max_workers=10)
         self.log.info("Processing process completed.")
 
-    def storage_process(self):
+    def storage_process(self) -> None:
         """ Target function for the data storage process."""
 
         self.log.info("Storage process starting...")

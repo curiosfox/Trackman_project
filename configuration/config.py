@@ -1,4 +1,4 @@
-class Config:
+class Config(object):
     """ Config class holds all the configuration variables and methods """
 
     SYMBOLS = ["AAPL", "GOOGL", "MSFT", "AMZN"]

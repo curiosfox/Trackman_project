@@ -1,3 +1,5 @@
+import logging
+import multiprocessing
 from concurrent.futures import ThreadPoolExecutor
 
 from configuration.config import Config
@@ -7,7 +9,8 @@ from utils.logger_config import LoggerConfig
 class DataProcessing(object):
     """ Class for Data Processing """
 
-    def __init__(self, log_obj, data_process_queue, data_storage_queue):
+    def __init__(self, log_obj: logging.Logger, data_process_queue: multiprocessing.Queue,
+                 data_storage_queue: multiprocessing.Queue) -> None:
         """ Constructor to process all initialization process
 
             Args:
@@ -21,14 +24,13 @@ class DataProcessing(object):
         self.data_storage_queue = data_storage_queue
         self.usd_vs_dkk = Config.USD_VS_DKK
 
-    def setup_data_processing(self):
+    def setup_data_processing(self) -> None:
         """ Setup for data Processing phase """
 
         self.log.info(f"Setup phase for data processing phase completed")
 
-    def process_data_item(self, item):
-        """
-        Process a single data item, adding a price in DKK.
+    def process_data_item(self, item: dict) -> dict:
+        """ Process a single data item, adding a price in DKK.
 
         Args:
             item (dict): A data item with keys 'symbol', 'price', 'timestamp'.
@@ -46,9 +48,8 @@ class DataProcessing(object):
         log_obj.debug(f"Data processed value:{item}")
         return item
 
-    def run_data_processing(self, max_workers=10):
-        """
-        Continuously read from data_process_queue, process items using a ThreadPoolExecutor,
+    def run_data_processing(self, max_workers: int = 10) -> None:
+        """ Continuously read from data_process_queue, process items using a ThreadPoolExecutor,
         and push the results into data_storage_queue.
 
         Args:

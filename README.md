@@ -35,8 +35,7 @@ This project demonstrates a simple concurrent data processing pipeline with thre
 - **Data Acquisition** uses multiple **threads** to fetch multiple stock symbols concurrently.
 - **Data Processing** uses a `ThreadPoolExecutor` to process items in parallel, adjusting `max_workers` to handle
   different workloads.
-- **Data Storage** currently runs synchronously. If needed, it can be adapted to asynchronous I/O or a thread pool for
-  more complex storage operations.
+- **Data Storage** currently runs synchronously. as i couldn't run my docker demon to run it in a container env. 
 
 ## Data Flow
 
@@ -70,7 +69,7 @@ This project demonstrates a simple concurrent data processing pipeline with thre
    ```
 2. **Configuration**:
 
-- Review and modify config.py to set environment variables, symbol lists, or other parameters as needed.
+- Review and modify config.py to set symbol lists, or other parameters as needed.
 - Ensure LoggerConfig points to your desired log file path and console output configuration.
 
 3. **Run the Main App**:
