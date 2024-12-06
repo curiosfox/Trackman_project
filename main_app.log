@@ -1,0 +1,222 @@
+2024-12-06 17:13:04,238 [DEBUG] main_app: Initializing MainApp and creating multiprocessing queues.
+2024-12-06 17:13:04,238 [INFO] main_app: Starting the application setup phase
+2024-12-06 17:13:05,704 [DEBUG] main_app: Testing live data capture for stock price: 243.0399932861328
+2024-12-06 17:13:05,706 [INFO] main_app: Data Acquisition setup completed successfully.
+2024-12-06 17:13:05,706 [INFO] main_app: Setup phase for data processing phase completed
+2024-12-06 17:13:05,706 [INFO] main_app: Setup phase for data storage phase completed
+2024-12-06 17:13:05,706 [INFO] main_app: Setup phase of the application has completed successfully
+2024-12-06 17:13:05,706 [INFO] main_app: Starting Main application
+2024-12-06 17:13:05,713 [DEBUG] main_app: All processes started, waiting for completion.
+2024-12-06 17:13:18,660 [INFO] main_app: Completed the entire process
+2024-12-06 17:13:18,660 [INFO] main_app: Main application run is now complete.
+2024-12-06 17:15:48,459 [DEBUG] main_app: Initializing MainApp and creating multiprocessing queues.
+2024-12-06 17:15:48,459 [INFO] main_app: Starting the application setup phase
+2024-12-06 17:15:49,732 [DEBUG] main_app: Testing live data capture for stock price: 243.0399932861328
+2024-12-06 17:15:49,732 [INFO] main_app: Data Acquisition setup completed successfully.
+2024-12-06 17:15:49,732 [INFO] main_app: Setup phase for data processing phase completed
+2024-12-06 17:15:49,732 [INFO] main_app: Setup phase for data storage phase completed
+2024-12-06 17:15:49,732 [INFO] main_app: Setup phase of the application has completed successfully
+2024-12-06 17:15:49,732 [INFO] main_app: Starting Main application
+2024-12-06 17:15:49,741 [DEBUG] main_app: All processes started, waiting for completion.
+2024-12-06 17:15:50,637 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:51,638 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:52,638 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:53,639 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:54,639 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:55,640 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:56,640 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:57,641 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:58,641 [DEBUG] acq_process: In Sleep
+2024-12-06 17:15:59,641 [DEBUG] acq_process: In Sleep
+2024-12-06 17:16:00,642 [DEBUG] acq_process: In Sleep
+2024-12-06 17:16:01,643 [DEBUG] acq_process: In Sleep
+2024-12-06 17:16:02,643 [DEBUG] acq_process: In Sleep
+2024-12-06 17:16:03,689 [INFO] main_app: Completed the entire process
+2024-12-06 17:16:03,689 [INFO] main_app: Main application run is now complete.
+2024-12-06 17:18:34,807 [DEBUG] main_app: Initializing MainApp and creating multiprocessing queues.
+2024-12-06 17:18:34,808 [INFO] main_app: Starting the application setup phase
+2024-12-06 17:18:36,682 [DEBUG] main_app: Testing live data capture for stock price: 243.0399932861328
+2024-12-06 17:18:36,683 [INFO] main_app: Data Acquisition setup completed successfully.
+2024-12-06 17:18:36,683 [INFO] main_app: Setup phase for data processing phase completed
+2024-12-06 17:18:36,683 [INFO] main_app: Setup phase for data storage phase completed
+2024-12-06 17:18:36,683 [INFO] main_app: Setup phase of the application has completed successfully
+2024-12-06 17:18:36,683 [INFO] main_app: Starting Main application
+2024-12-06 17:18:36,691 [DEBUG] main_app: All processes started, waiting for completion.
+2024-12-06 17:18:37,563 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:38,563 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:38,650 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733485718.650912}
+2024-12-06 17:18:39,564 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:39,950 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733485719.9501872}
+2024-12-06 17:18:40,162 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733485720.1620352}
+2024-12-06 17:18:40,564 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:41,143 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733485721.143755}
+2024-12-06 17:18:41,565 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:42,107 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733485722.1076202}
+2024-12-06 17:18:42,565 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:43,225 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733485723.225736}
+2024-12-06 17:18:43,566 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:43,622 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733485723.6228595}
+2024-12-06 17:18:44,483 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733485724.4830282}
+2024-12-06 17:18:44,566 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:45,332 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733485725.3323188}
+2024-12-06 17:18:45,567 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:46,269 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733485726.2690904}
+2024-12-06 17:18:46,568 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:47,568 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:48,291 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733485728.291378}
+2024-12-06 17:18:48,479 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733485728.4797757}
+2024-12-06 17:18:48,569 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:49,344 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733485729.3447864}
+2024-12-06 17:18:49,569 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:49,987 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733485729.9876516}
+2024-12-06 17:18:50,570 [DEBUG] storage_process: In Sleep
+2024-12-06 17:18:51,570 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733485718.650912, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:18:51,570 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733485719.9501872, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:18:51,570 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733485720.1620352, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733485721.143755, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733485722.1076202, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733485723.225736, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733485723.6228595, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733485724.4830282, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733485725.3323188, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733485726.2690904, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733485728.291378, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733485728.4797757, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733485729.3447864, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733485729.9876516, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:18:51,571 [INFO] storage_process: Data Storage: No more data to store.
+2024-12-06 17:18:51,615 [INFO] main_app: Completed the entire process
+2024-12-06 17:18:51,615 [INFO] main_app: Main application run is now complete.
+2024-12-06 17:25:32,489 [DEBUG] main_app: Initializing MainApp and creating multiprocessing queues.
+2024-12-06 17:25:32,490 [INFO] main_app: Starting the application setup phase
+2024-12-06 17:25:33,930 [DEBUG] main_app: Testing live data capture for stock price: 243.0399932861328
+2024-12-06 17:25:33,930 [INFO] main_app: Data Acquisition setup completed successfully.
+2024-12-06 17:25:33,930 [INFO] main_app: Setup phase for data processing phase completed
+2024-12-06 17:25:33,930 [INFO] main_app: Setup phase for data storage phase completed
+2024-12-06 17:25:33,930 [INFO] main_app: Setup phase of the application has completed successfully
+2024-12-06 17:25:33,930 [INFO] main_app: Starting Main application
+2024-12-06 17:25:33,939 [DEBUG] main_app: All processes started, waiting for completion.
+2024-12-06 17:25:34,823 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:35,824 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:36,220 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486136.2201138}
+2024-12-06 17:25:36,350 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486136.3500204}
+2024-12-06 17:25:36,825 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:37,488 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486137.488414}
+2024-12-06 17:25:37,713 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486137.7138479}
+2024-12-06 17:25:37,825 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:38,826 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:39,826 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:39,877 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486139.8773901}
+2024-12-06 17:25:40,446 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486140.4460602}
+2024-12-06 17:25:40,827 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:40,967 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486140.9670882}
+2024-12-06 17:25:41,447 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486141.4471295}
+2024-12-06 17:25:41,827 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:42,828 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:43,530 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486143.5309055}
+2024-12-06 17:25:43,829 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:43,936 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486143.9360712}
+2024-12-06 17:25:44,471 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486144.4715033}
+2024-12-06 17:25:44,829 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:45,496 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486145.4969046}
+2024-12-06 17:25:45,829 [DEBUG] storage_process: In Sleep
+2024-12-06 17:25:46,830 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486136.2201138, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:25:46,830 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486136.3500204, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:25:46,830 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486137.488414, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:25:46,830 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486137.7138479, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:25:46,830 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486139.8773901, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:25:46,830 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486140.4460602, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:25:46,830 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486140.9670882, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:25:46,830 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486141.4471295, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:25:46,831 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486143.5309055, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:25:46,831 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486143.9360712, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:25:46,831 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486144.4715033, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:25:46,831 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486145.4969046, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:25:46,831 [INFO] storage_process: Data Storage: No more data to store.
+2024-12-06 17:25:46,877 [INFO] main_app: Completed the entire process
+2024-12-06 17:25:46,877 [INFO] main_app: Main application run is now complete.
+2024-12-06 17:27:16,202 [DEBUG] main_app: Initializing MainApp and creating multiprocessing queues.
+2024-12-06 17:27:16,202 [INFO] main_app: Starting the application setup phase
+2024-12-06 17:27:17,066 [DEBUG] main_app: Testing live data capture for stock price: 243.0399932861328
+2024-12-06 17:27:17,066 [INFO] main_app: Data Acquisition setup completed successfully.
+2024-12-06 17:27:17,066 [INFO] main_app: Setup phase for data processing phase completed
+2024-12-06 17:27:17,066 [INFO] main_app: Setup phase for data storage phase completed
+2024-12-06 17:27:17,066 [INFO] main_app: Setup phase of the application has completed successfully
+2024-12-06 17:27:17,066 [INFO] main_app: Starting Main application
+2024-12-06 17:27:17,074 [DEBUG] main_app: All processes started, waiting for completion.
+2024-12-06 17:27:17,957 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:18,593 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486238.593397}
+2024-12-06 17:27:18,594 [DEBUG] data_process: Data processed value:{'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486238.593397, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:18,824 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486238.8243213}
+2024-12-06 17:27:18,825 [DEBUG] data_process: Data processed value:{'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486238.8243213, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:18,958 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:18,992 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486238.9920611}
+2024-12-06 17:27:18,993 [DEBUG] data_process: Data processed value:{'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486238.9920611, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:19,306 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486239.3068807}
+2024-12-06 17:27:19,307 [DEBUG] data_process: Data processed value:{'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486239.3068807, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:19,958 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:20,622 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486240.6213815}
+2024-12-06 17:27:20,622 [DEBUG] data_process: Data processed value:{'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486240.6213815, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:20,959 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:21,114 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486241.1143756}
+2024-12-06 17:27:21,115 [DEBUG] data_process: Data processed value:{'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486241.1143756, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:21,507 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486241.5070086}
+2024-12-06 17:27:21,508 [DEBUG] data_process: Data processed value:{'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486241.5070086, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:21,959 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:22,120 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486242.1202543}
+2024-12-06 17:27:22,120 [DEBUG] data_process: Data processed value:{'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486242.1202543, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:22,960 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:23,043 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486243.0433674}
+2024-12-06 17:27:23,044 [DEBUG] data_process: Data processed value:{'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486243.0433674, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:23,597 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486243.5974965}
+2024-12-06 17:27:23,597 [DEBUG] data_process: Data processed value:{'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486243.5974965, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:23,845 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486243.845118}
+2024-12-06 17:27:23,846 [DEBUG] data_process: Data processed value:{'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486243.845118, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:23,961 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:24,347 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486244.347739}
+2024-12-06 17:27:24,348 [DEBUG] data_process: Data processed value:{'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486244.347739, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:24,961 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:25,123 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486245.123344}
+2024-12-06 17:27:25,124 [DEBUG] data_process: Data processed value:{'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486245.123344, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:25,647 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486245.6472287}
+2024-12-06 17:27:25,647 [DEBUG] data_process: Data processed value:{'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486245.6472287, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:25,962 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:26,346 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486246.3469563}
+2024-12-06 17:27:26,347 [DEBUG] data_process: Data processed value:{'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486246.3469563, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:26,864 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486246.8645954}
+2024-12-06 17:27:26,866 [DEBUG] data_process: Data processed value:{'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486246.8645954, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:26,962 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:27,323 [DEBUG] acq_process: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486247.323981}
+2024-12-06 17:27:27,323 [DEBUG] data_process: Data processed value:{'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486247.323981, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:27,963 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:28,116 [DEBUG] acq_process: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486248.1162608}
+2024-12-06 17:27:28,116 [DEBUG] data_process: Data processed value:{'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486248.1162608, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:28,720 [DEBUG] acq_process: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486248.7209651}
+2024-12-06 17:27:28,721 [DEBUG] data_process: Data processed value:{'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486248.7209651, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:28,963 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:29,424 [DEBUG] acq_process: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486249.4243429}
+2024-12-06 17:27:29,425 [DEBUG] data_process: Data processed value:{'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486249.4243429, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:29,963 [DEBUG] storage_process: In Sleep
+2024-12-06 17:27:30,964 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486238.593397, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:30,964 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486238.8243213, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:30,964 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486238.9920611, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:30,964 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486239.3068807, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:30,964 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486240.6213815, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:30,964 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486241.1143756, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:30,964 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486241.5070086, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486242.1202543, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486243.0433674, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486243.5974965, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486243.845118, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486244.347739, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486245.123344, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486245.6472287, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486246.3469563, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486246.8645954, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'MSFT', 'price': np.float64(442.6199951171875), 'timestamp': 1733486247.323981, 'price (DKK)': np.float64(3120.4709655761717)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'AMZN', 'price': np.float64(220.5500030517578), 'timestamp': 1733486248.1162608, 'price (DKK)': np.float64(1554.8775215148926)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'AAPL', 'price': np.float64(243.0399932861328), 'timestamp': 1733486248.7209651, 'price (DKK)': np.float64(1713.4319526672364)}
+2024-12-06 17:27:30,965 [INFO] storage_process: Data Storage received: {'symbol': 'GOOGL', 'price': np.float64(172.63999938964844), 'timestamp': 1733486249.4243429, 'price (DKK)': np.float64(1217.1119956970215)}
+2024-12-06 17:27:30,966 [INFO] storage_process: Data Storage: No more data to store.
+2024-12-06 17:27:31,026 [INFO] main_app: Completed the entire process
+2024-12-06 17:27:31,026 [INFO] main_app: Main application run is now complete.
